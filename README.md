@@ -1,7 +1,6 @@
-# File-Intergrity-Monitor
-Here, I have created a file integrity moniting system in which it detects whether a original file is changed or not by an unauthorised person.
+# Integrity Monitoring System
+I developed a custom proof-of-concept File Integrity Monitoring (FIM) system that detects unauthorized changes to original files.
 
-* Create a custom/proof of concept File Integrity Monitor(FIM)
-       #Created a INtegrity baseline of target files/folders using the SHA-512 hashing algorithm
-       #Continously made comparison of actual files vs baseline, raised alerts if any deviations occurred
-       #Sent alert x-alert vis y-means to allow further investigation of potential compromise 
+       * Established a baseline of target files and folders using the SHA-512 hashing algorithm.
+       * Continuously compared the current state of files against the baseline and triggered alerts for any discrepancies.
+       * Sent alerts through designated channels to facilitate further investigation of potential security breaches.
